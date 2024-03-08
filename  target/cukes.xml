@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0.230216">
+    <testcase classname="Buy few products" name="Buy products from Bigbasket" time="0.226697">
+        <system-out><![CDATA[Given open Browser and navigate to "https://www.bigbasket.com/".............passed
+When Buy Vegitable cat "veg" name "tomato" brand "local" grams "1000gms"  delivery "tomorrow" payment_method "creditcard".passed
+When Buy Vegitable..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Buy few products" name="_2" time="0.000477">
+        <system-out><![CDATA[Given open Browser and navigate to "https://www.bigbasket.com/".............passed
+When Buy items Other Colgate 10 CC..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Buy few products" name="_3" time="0.000561">
+        <system-out><![CDATA[Given open Browser and navigate to "https://www.bigbasket.com/".............passed
+When Buy items Other Aerial 2 CC............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Buy few products" name="_4" time="0.000625">
+        <system-out><![CDATA[Given open Browser and navigate to "https://www.bigbasket.com/".............passed
+When Buy items Other Honey 1 CC.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="Login Functionality Testcase 1" time="0.000917">
+        <system-out><![CDATA[Given user navigates to the website "https://automationexercise.com/".......passed
+When Click on the sign in button............................................passed
+When Login to application using enter username "shruthi123@gmail.com" and password "123456".passed
+Then Verify webpage is opened or not........................................passed
+Then My account page should open............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="ContactUs Testcases" name="Verify Contact Us page 001" time="0.000939">
+        <system-out><![CDATA[Given open browser and navigate to "https://automationexercise.com/"........passed
+When Click on Contact us....................................................passed
+Then verify contact us page displayed or not................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
